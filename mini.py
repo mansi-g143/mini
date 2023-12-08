@@ -1,4 +1,4 @@
-'''sabse pehle hame ek speak function banana padega def speak(audio) pass taki jarvis hame sun sake for that we will use "sapi5"
+'''sabse pehle hame ek speak function banana padega def speak(audio) pass taki mini hame sun sake for that we will use "sapi5"
 ye microsoft ki taraf se ek api hai in windows jo speech ko recognize karta hai taki AI kuch bole and we can eaily
 recognize what ai is speaking by sapi5 we can use inbuit voice that is in windows'''
 
@@ -31,7 +31,7 @@ def wishMe():
     else:
         speak('good evening')
 
-    speak(" I am jarvis sir,Please tell me how may i help you")
+    speak(" I am mini sir,Please tell me how may i help you")
 
 def takeCommand():
     #it takes microphone input from the user and returs string output
@@ -59,8 +59,8 @@ def takeCommand():
 
 
 if __name__=="__main__":
-    speak("hi,sir") #speak function is used to speak taki jarvis bol pae
-    #wishMe() agar wish me laga diya toh jarvis baar baar wish karega hame 
+    speak("hi,sir") #speak function is used to speak taki mini bol pae
+    #wishMe() agar wish me laga diya toh mini baar baar wish karega hame 
     #while True:
     if 1:
         query=takeCommand().lower() #agar isko lower mai nhi karte to maan lo google mai g captital hota toh error ata
